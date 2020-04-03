@@ -52,3 +52,24 @@ echo $nome_da_variável
 export nome_da_variável
 ```
 
+## Array
+
+### Criar um array
+
+colocar o conteúdo dentro de parênteses com espaços entre os elementos
+
+```bash
+nome_da_variável=(laranja morando uva)
+```
+
+### Acessar o array
+
+**todos os elementos**
+```bash
+echo ${nome_da_variável[*]}
+```
+
+**primeiro elemento**
+```bash
+echo ${nome_da_variável[0]}
+```
