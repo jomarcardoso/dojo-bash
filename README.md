@@ -2,6 +2,16 @@
 
 Bem básico
 
+## Princípios
+
+#### Abrir outro bash
+
+Cria uma nova instância com um novo escopo, sem acesso as variáveis locais do outro bash.
+
+```bash
+bash
+```
+
 ## Variáveis
 
 Locais e globais
@@ -72,4 +82,22 @@ echo ${nome_da_variável[*]}
 **primeiro elemento**
 ```bash
 echo ${nome_da_variável[0]}
+```
+
+### Mudar valor do elemento
+
+```bash
+nome_da_variável[index]=novo_valor
+```
+
+### Remover elemento
+
+```
+unset nome_da_variável[index]
+```
+
+### Adicionar elemento
+
+```
+nome_da_variável[tamanho_do_array]=novo_elemento
 ```
