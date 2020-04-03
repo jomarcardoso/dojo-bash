@@ -101,3 +101,5 @@ unset nome_da_variável[index]
 ```
 nome_da_variável[tamanho_do_array]=novo_elemento
 ```
+
+https://www.youtube.com/watch?v=cru9166Gfss
